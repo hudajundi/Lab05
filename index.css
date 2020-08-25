@@ -1,0 +1,16 @@
+h1 {
+    padding: 30px;
+    text-align: center;
+    backgroud: #808000;
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+}
+nav a {
+    text-align: center;
+}
+img {
+border: 2px
+}
+footer{
+    text-align: center;
+}
