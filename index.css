@@ -9,7 +9,11 @@ nav a {
     text-align: center;
 }
 img {
-border: 2px
+
+border: 10px solid;
+width: 400px;
+height: 400px;
+
 }
 footer{
     text-align: center;

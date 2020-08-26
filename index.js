@@ -11,9 +11,14 @@
 // }
 // document.write('<h2>'+greeting+'</h2>')
 // greeting;
+function WelomingFunction() {
+    alert ("Hello");
+    console.log();
+} 
+WelomingFunction();
 
 
-var apple = prompt("did you ate an apple today?")
+var apple = prompt("did you ate an apple today?");
 var result;
 
 if ( apple == "yes") {
@@ -22,38 +27,21 @@ if ( apple == "yes") {
     ( apple == "no")
     result = ' Go eat';
 }
-document.write('<h3>'+result+'</h3>')
+document.write('<h3>'+result+'</h3>');
 
 
-var love = prompt("do you love red apple?")
-var picture;
-
-if (love =="yes") {
-document.write ("<img src='https://img.favpng.com/16/24/23/apple-red-delicious-perfume-fruit-png-favpng-cdrGhxzH27vcrPdAqN4x4THAA.jpg'> ")   
-} else {
-    (love == "no")
-    decument.write ("<img src='https://cdn.pixabay.com/photo/2019/10/03/01/44/apple-4522286_1280.png' >")  
-}
-
-
-
-var gender = prompt("Are you a boy ar a girl?")
+var gender = prompt("Are you a boy ar a girl?");
 var name ;
 
-if (gender = "boy" ) {
+if (gender == "boy" ) {
     name = 'Hi, boy ';
     
 } else {
     name = 'hi , girl';
     
 } 
-document.write ('<h4>'+name+'</h4>')
+document.write ('<h4>'+name+'</h4>');
 
-function WelomingFunction() {
-    alert ("Hello");
-    console.log()
-} 
-WelomingFunction();
 
 
 function Health(){
@@ -70,6 +58,39 @@ function Health(){
         
     } 
     //output
-    return Health
+    return Health;
 }
-Health(); 
+Health();
+
+
+var apple_color = prompt("do you love red or green apples?");
+
+if (apple_color =="red") {
+document.write("this is your favourite apple")
+document.write ("<img src='https://img.favpng.com/16/24/23/apple-red-delicious-perfume-fruit-png-favpng-cdrGhxzH27vcrPdAqN4x4THAA.jpg'> ");
+
+} 
+else if (apple_color == "green") {
+document.write("this is your favourite apple")
+document.write ("<img src='https://png.pngtree.com/png-clipart/20191115/ourmid/pngtree-fresh-green-apple-isolated-on-transparent-background-png-image_1952947.jpg' > ");
+}
+
+var numberOfApples= prompt("How many apples you want?");
+
+while(numberOfApples < 1){
+    var numberOfApples= prompt("no you should eat at least 1 apple");
+}
+for (var count=0; count< numberOfApples; count++) {
+
+    document.write("this is apple number")
+    document.write(count+1)
+if (apple_color=="red") {
+
+document.write ("<img src='https://img.favpng.com/16/24/23/apple-red-delicious-perfume-fruit-png-favpng-cdrGhxzH27vcrPdAqN4x4THAA.jpg'> ");
+    
+} 
+else if (apple_color=="green") {
+    document.write ("<img src='https://png.pngtree.com/png-clipart/20191115/ourmid/pngtree-fresh-green-apple-isolated-on-transparent-background-png-image_1952947.jpg' > ");
+
+} 
+}
